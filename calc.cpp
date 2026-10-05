@@ -17,7 +17,7 @@ int main() {
     switch (op) {
         case 1: result = a + b; break;
         case 2: result = a - b; break;
-        case 3: result = 0; break;
+        case 3: result = a * b; break;
         case 4:
             if (b == 0) {
                 cerr << "Ділення на нуль неможливе\n";
